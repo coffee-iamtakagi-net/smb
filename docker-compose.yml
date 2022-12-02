@@ -2,6 +2,7 @@ version: '3.8'
 services:
   smb:
     container_name: smb
+    image: smb:latest
     build:
       context: .
       dockerfile: Dockerfile
